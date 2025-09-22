@@ -52,9 +52,9 @@ public class Main {
     }
 
     private static void listarJogos() {
-        System.out.println("\n📋 Jogos na Lista:");
+        System.out.println("\n Jogos na Lista:");
         listaJogos.listar();
-        System.out.println("\n📋 Jogos na Fila:");
+        System.out.println("\n Jogos na Fila:");
         filaJogos.listar();
     }
 
@@ -88,7 +88,7 @@ public class Main {
         filaJogos = copia;
         long fimFila = System.nanoTime();
 
-        System.out.println("\n🔎 Resultado da busca:");
+        System.out.println("\n Resultado da busca:");
         System.out.println("Lista -> " + (encontradoLista != null ? encontradoLista : "Não encontrado") +
                            " | Tempo: " + (fimLista - inicioLista) + " ns");
         System.out.println("Fila -> " + (encontradoFila != null ? encontradoFila : "Não encontrado") +
